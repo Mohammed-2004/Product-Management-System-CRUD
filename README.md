@@ -30,8 +30,11 @@ The project demonstrates basic CRUD operations with data stored in the browser u
 
 ## 📂 Project Structure
 ├── page.html
+
 ├── home.js
+
 ├── style.css
+
 └── README.md
 
 ---
