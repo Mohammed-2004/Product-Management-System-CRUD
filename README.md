@@ -29,4 +29,41 @@ The project demonstrates basic CRUD operations with data stored in the browser u
 ---
 
 ## 📂 Project Structure
+├── page.html
+├── home.js
+├── style.css
+└── README.md
 
+---
+
+## 🚀 How to Run the Project
+
+- Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+
+## 🧠 What I Learned
+
+- DOM Manipulation using JavaScript
+
+- Handling user input and form validation
+
+- Using LocalStorage to save and retrieve data
+
+- Implementing CRUD logic without any framework
+
+- Basic search and filter logic
+
+## 📌 Notes
+
+- Maximum count per product is limited to 100
+
+- All data is stored locally in the browser
+
+- Refreshing the page will not remove saved products
+
+## 👤 Author
+
+- Muhammad Ibrahim
+- Computer Science Student
+- Interested in Web Development & Cybersecurity
