@@ -41,9 +41,12 @@ The project demonstrates basic CRUD operations with data stored in the browser u
 
 ## 🚀 How to Run the Project
 
-- Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+2. Open ***page.html*** in your browser *(✅ No server or additional setup required)*
+
+🧠 What I L
 
 ## 🧠 What I Learned
 
@@ -67,6 +70,6 @@ The project demonstrates basic CRUD operations with data stored in the browser u
 
 ## 👤 Author
 
-- Muhammad Ibrahim
+- **Muhammad Ibrahim**
 - Computer Science Student
 - Interested in Web Development & Cybersecurity
