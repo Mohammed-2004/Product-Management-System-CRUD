@@ -1,15 +1,15 @@
-
-// Creation and Calc
-// create product
-// save data in localStorage 
-// clear inputs data
+// Steps : 
+// Creation and Calculation
+// Create product
+// Save data in LocalStorage 
+// Clear inputs data
 //------------------------------------------------
 // Read operations
-// count 
-// update 
-// delete 
-// search 
-// clean data
+// count() 
+// update() 
+// delete() 
+// search() 
+// clean data()
 //------------------------------------------------- 
 
 let title = document.getElementById("title");
@@ -25,9 +25,6 @@ let send = document.getElementById("send");
 let mode = "create";
 let temp;
 
-
-// console.log(title, price, taxes, ads, discount, total, count, category, send)
-
 // funtion getTotal()
 function getTotal() {
     if (price.value != "") {
@@ -41,7 +38,6 @@ function getTotal() {
     }
 }
 
-//------------------------------------------------------
 // Saving data in localStorage
 
 let Prod_data;
@@ -106,7 +102,6 @@ function clearData() {
     category.value = "";
 }
 
-//-------------------------------------------------------------
 // Read Data from Table
 
 function showData() {
@@ -137,7 +132,6 @@ function showData() {
     }
 }
 
-//-------------------------------------------------------------
 // Delete
 
 function deleteData(i) {
@@ -145,14 +139,13 @@ function deleteData(i) {
     localStorage.product = JSON.stringify(Prod_data);
     showData();
 };
-//-----------------------------------------------------------
 
 function deleteAll() {
     localStorage.clear();
     Prod_data.splice(0);
     showData();
 };
-//-----------------------------------------------------------
+
 // Update
 function updateData(i) {
     title.value = Prod_data[i].title;
@@ -171,7 +164,7 @@ function updateData(i) {
         behavior: "smooth",
     });
 };
-//-----------------------------------------------------------
+
 // Search
 let searchMode = "Title";
 function getSearchMode(id) {
@@ -191,7 +184,6 @@ function getSearchMode(id) {
 };
 
 // Search Func.
-
 function searchData(value) {
 
     let table = ``;
@@ -236,15 +228,9 @@ function searchData(value) {
 
     document.getElementById("tbody").innerHTML = table;
 };
-//-----------------------------------------------------------
+
 // Clean Data
 
 function cleanData() {
 
 };
-
-
-
-
-
-
