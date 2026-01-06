@@ -46,7 +46,7 @@ The project demonstrates basic CRUD operations with data stored in the browser u
    git clone https://github.com/your-username/your-repo-name.git
 2. Open ***page.html*** in your browser *(✅ No server or additional setup required)*
 
-🧠 What I L
+---
 
 ## 🧠 What I Learned
 
